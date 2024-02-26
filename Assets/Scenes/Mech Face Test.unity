@@ -4058,7 +4058,7 @@ Animator:
   m_GameObject: {fileID: 769103310}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b42ee7cbe4eb72242822ca821187ceac, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7682,7 +7682,9 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 2707250960395224265, guid: e61fe33c8bd051a4f9fbf94c98c418e9, type: 2}
+    value: {fileID: 769103312}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1507444205
@@ -8551,7 +8553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 311fbb28064b2ef419623b2297adb30b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.2
+      value: 5.11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 311fbb28064b2ef419623b2297adb30b, type: 3}
       propertyPath: m_LocalRotation.w
