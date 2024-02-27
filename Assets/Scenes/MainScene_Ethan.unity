@@ -43856,7 +43856,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   serializedVersion: 6
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
@@ -71139,7 +71139,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5207f5995464fc042a7aa2f2033ad233, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1996155
+      value: 2.242
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5207f5995464fc042a7aa2f2033ad233, type: 3}
       propertyPath: m_LocalPosition.y
