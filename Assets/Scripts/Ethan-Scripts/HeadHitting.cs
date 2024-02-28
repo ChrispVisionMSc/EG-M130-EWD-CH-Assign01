@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class HeadHitting : MonoBehaviour
 {
+   
     public class Entertrigger : MonoBehaviour
-    {
+    { 
+        public int headHittingCount =0;
         public GameObject redCube;
         // Start is called before the first frame update
         private void OnTriggerEnter(Collider MainCamera)
         {
             redCube.SetActive(true);
+            headHittingCount++;
         }
         public void OnTriggerExit(Collider MainCamera)
         {
