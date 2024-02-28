@@ -21364,9 +21364,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8ab109fb05fb6ce4b9ae4a099c19584e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.424
+  m_Volume: 0.186
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -31325,9 +31325,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 00f6f548579db41498aafc8e1e2722da, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.325
+  m_Volume: 0.204
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -46508,6 +46508,10 @@ PlayableDirector:
     value: {fileID: 1295210079}
   - key: {fileID: 9203291322867847542, guid: a338f5de2258e1244b17ca6e923052e8, type: 2}
     value: {fileID: 96325273}
+  - key: {fileID: -6148681171527233008, guid: a338f5de2258e1244b17ca6e923052e8, type: 2}
+    value: {fileID: 347262236}
+  - key: {fileID: 8596589962094869403, guid: a338f5de2258e1244b17ca6e923052e8, type: 2}
+    value: {fileID: 742312777}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1142221375
