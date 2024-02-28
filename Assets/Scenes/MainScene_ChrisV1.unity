@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 96325272}
   - component: {fileID: 96325273}
   m_Layer: 0
-  m_Name: Audio Source (2)
+  m_Name: Audio Miner (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1310,10 +1310,10 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96325271}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 28694eb6738e0ed40a7c3381d5aa3896, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -21364,7 +21364,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8ab109fb05fb6ce4b9ae4a099c19584e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.549
+  m_Volume: 0.424
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -31323,9 +31323,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 00f6f548579db41498aafc8e1e2722da, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.512
+  m_Volume: 0.325
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -43027,7 +43027,7 @@ GameObject:
   - component: {fileID: 950593849}
   - component: {fileID: 950593850}
   m_Layer: 0
-  m_Name: Audio Source (3)
+  m_Name: Audio Miner (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44757,7 +44757,7 @@ GameObject:
   - component: {fileID: 1052831067}
   - component: {fileID: 1052831068}
   m_Layer: 0
-  m_Name: Audio Source (1)
+  m_Name: Audio Miner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46502,6 +46502,12 @@ PlayableDirector:
     value: {fileID: 1052831068}
   - key: {fileID: -8676749857604270888, guid: a338f5de2258e1244b17ca6e923052e8, type: 2}
     value: {fileID: 160070237}
+  - key: {fileID: 4777060038695847169, guid: a338f5de2258e1244b17ca6e923052e8, type: 2}
+    value: {fileID: 1879514317}
+  - key: {fileID: -4152456980022143578, guid: a338f5de2258e1244b17ca6e923052e8, type: 2}
+    value: {fileID: 1295210079}
+  - key: {fileID: 9203291322867847542, guid: a338f5de2258e1244b17ca6e923052e8, type: 2}
+    value: {fileID: 96325273}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1142221375
@@ -52072,7 +52078,7 @@ GameObject:
   - component: {fileID: 1295210078}
   - component: {fileID: 1295210079}
   m_Layer: 0
-  m_Name: Audio Source (5)
+  m_Name: Audio Miner (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52105,7 +52111,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.487
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -71438,6 +71444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Construction_Male_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95b46d0c4eb0e084aa59ef0aa2899f92, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -71491,7 +71501,7 @@ GameObject:
   - component: {fileID: 1879514316}
   - component: {fileID: 1879514317}
   m_Layer: 0
-  m_Name: Audio Source (4)
+  m_Name: Audio Miner (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78141,5 +78151,5 @@ SceneRoots:
   - {fileID: 494598833}
   - {fileID: 1614873381}
   - {fileID: 2088937656}
-  - {fileID: 1142221375}
   - {fileID: 1179639662}
+  - {fileID: 1142221375}
