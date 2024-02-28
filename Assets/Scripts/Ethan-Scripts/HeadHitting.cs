@@ -14,6 +14,7 @@ public class HeadHitting : MonoBehaviour
         {
             redCube.SetActive(true);
             headHittingCount++;
+            Debug.Log("ouch");
         }
         public void OnTriggerExit(Collider MainCamera)
         {
