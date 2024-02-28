@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 0.90816325
+    volume: 1
     stereoPan: 0
     spatialBlend: 0
 --- !u!114 &-7967811369155530554
@@ -635,7 +635,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 74.15
+        time: 74.46667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -665,7 +665,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 74.15
+    m_StopTime: 74.46667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -686,7 +686,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 74.15
+        time: 74.46667
         value: 1
         inSlope: 0
         outSlope: 0
