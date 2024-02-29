@@ -1,29 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO;
 
-//public class HeadHitting : MonoBehaviour
-//{
-//     public float headHittingCount;
-//    public class SaveObject
-//        {
-
-//            public float headHittingCount;
-//        }
-//    public void save()
-//        {
-//            Debug.Log("saving to " + Application.dataPath);
-
-//            SaveObject saveObject = new SaveObject()
-//            {
-//                headHittingCount = headHittingCount,
-
-//            };
-//            string json = JsonUtility.ToJson(saveObject);
-//            File.WriteAllText(Application.dataPath + "/save.txt", json);
-
-//        }
     public class Entertrigger : MonoBehaviour
     { 
         
@@ -44,4 +22,4 @@ using System.IO;
             redCube.SetActive(false);
         }
     }
-}
+
